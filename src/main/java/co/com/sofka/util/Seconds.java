@@ -14,6 +14,7 @@ public enum Seconds {
     TEN_SECONDS(10),
     TWENTY_SECONDS(20),
     THIRTY_SECONDS(30),
+    FIFTY_SECONDS(50),
     THOUSAND_SECONDS(1000);
 
     private final int value;

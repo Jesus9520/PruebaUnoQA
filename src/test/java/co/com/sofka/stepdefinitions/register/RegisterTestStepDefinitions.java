@@ -56,7 +56,6 @@ public class RegisterTestStepDefinitions extends WebUI {
 
 
         }  catch (Exception exception){
-
             quiteDriver();
             Assertions.fail(exception.getMessage(), exception);
             LOGGER.error(exception.getMessage(), exception);
